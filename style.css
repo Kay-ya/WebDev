@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5cm;
+    color: rgb(77, 2, 148);
+    text-decoration: none;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(223, 190, 255);
+}
+
+.main-nav li{
+    padding: 0 7%;
+}
+
+.nav a:hover{
+    background-color: blueviolet;
+}
+.main-header{
+    background-image: url("Images/desktop-wallpaper-trend-cloud-purple-aesthetic-aesthetic-pastel-lavender-clouds-thumbnail.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name{
+    text-align: center;
+    margin:0;
+    font-size: 2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(89, 57, 197);
+}
+
+.band-name-large{
+    font-size: 3em;
+}
+
+.content-section{
+    margin: 2em;
+}
+
+.container{
+    max-width: 1800px;
+    margin:0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.band-image{
+    float: left;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: rgb(0, 0, 0);
+}
+
+.font-changes{
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif
+}
